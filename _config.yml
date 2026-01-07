@@ -21,8 +21,11 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-url: 'https://mydomain.com'
-baseurl: ''
+# If you're hosting as a GitHub project site (https://<username>.github.io/<repo>),
+# set `url` and `baseurl` accordingly. If you use a custom domain, set `url` to
+# your custom domain and keep baseurl empty.
+url: "https://HenryVuong270.github.io"
+baseurl: "/website.henryvuong"
 title: 'My website'
 description: 'This is my new website'
 permalink: pretty
